@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- VO2 Coach icon: orange progress ring + white lightning bolt (108dp adaptive canvas, safe zone 66dp) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- faint full track -->
+    <path
+        android:pathData="M54,28 A26,26 0 1,1 53.99,28"
+        android:strokeColor="#33FFFFFF"
+        android:strokeWidth="6"
+        android:fillColor="#00000000" />
+    <!-- 300 degree orange progress arc -->
+    <path
+        android:pathData="M54,28 A26,26 0 1,1 31.48,41"
+        android:strokeColor="#FF6A1A"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <!-- lightning bolt -->
+    <path
+        android:pathData="M58,35 L43,57 L52,57 L49,73 L65,49 L56,49 L60,35 Z"
+        android:fillColor="#FFFFFF" />
+</vector>

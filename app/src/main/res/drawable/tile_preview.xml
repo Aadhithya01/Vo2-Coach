@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Feature #8: tile preview / complication icon. OLED black, neon progress ring, START disc. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="192dp"
+    android:height="192dp"
+    android:viewportWidth="192"
+    android:viewportHeight="192">
+
+    <!-- black round background -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M96,0 A96,96 0 1,1 95.99,0 Z" />
+
+    <!-- dim full ring -->
+    <path
+        android:strokeColor="#FF111114"
+        android:strokeWidth="6"
+        android:fillColor="#00000000"
+        android:pathData="M96,5 A91,91 0 1,1 95.99,5" />
+
+    <!-- lime progress arc (2/3 of the week) -->
+    <path
+        android:strokeColor="#FF00E676"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M96,5 A91,91 0 1,1 17.19,141.5" />
+
+    <!-- title bar "VO2 COACH" -->
+    <path
+        android:fillColor="#FFFF2D55"
+        android:pathData="M70,40 L122,40 L122,46 L70,46 Z" />
+
+    <!-- stats: streak (yellow) and week (lime) -->
+    <path
+        android:fillColor="#FFFFD600"
+        android:pathData="M58,56 L86,56 L86,70 L58,70 Z" />
+    <path
+        android:fillColor="#FF00E676"
+        android:pathData="M106,56 L134,56 L134,70 L106,70 Z" />
+
+    <!-- START disc -->
+    <path
+        android:fillColor="#FFFF9100"
+        android:pathData="M96,82 A30,30 0 1,1 95.99,82 Z" />
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M80,109 L112,109 L112,115 L80,115 Z" />
+
+    <!-- mode name + headline -->
+    <path
+        android:fillColor="#FFFF9100"
+        android:pathData="M66,150 L126,150 L126,156 L66,156 Z" />
+    <path
+        android:fillColor="#FF8A8A93"
+        android:pathData="M74,161 L118,161 L118,165 L74,165 Z" />
+</vector>
